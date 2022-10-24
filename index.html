@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册登录</title>
+    <!-- 引入初始化css -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 引入注册登录css -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- 引入axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- 引入注册登录js -->
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div class="contains">
+        <!-- 注册部分 -->
+        <div class="register">
+            <h1>register</h1>
+            <input type="text" placeholder="用户名" class="reg_user">
+            <input type="password" placeholder="密码" class="reg_password">
+            <input type="password" placeholder="请重复输入密码" class="reg_password_rep">
+            <button class="reg_but but">注册</button>
+        </div>
+        <!-- 登录部分 -->
+        <div class="login">
+            <h1>login</h1>
+            <input type="text" placeholder="用户名" class="login_user">
+            <input type="password" placeholder="密码" class="login_password">
+            <button class="login_but but">登录</button>
+        </div>
+        <!-- 遮挡盒子 用于切换注册登录 -->
+        <div class="cover">
+            <button class="change">切换</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-image: linear-gradient(to right top, #68a2fc, #6d98f8, #738df2, #7b81eb, #8375e3, #9170e1, #9e6add, #ab64d9, #c063d9, #d562d9, #e860d6, #fb5fd3);
+}
+
+.contains {
+    position: relative;
+    display: flex;
+    margin: auto;
+    height: 500px;
+    width: 900px;
+    background: rgba(255, 255, 255, .4);
+    border-radius: 30px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .5);
+}
+
+.contains h1 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px #FF31CE;
+}
+
+.contains>.register,
+.contains>.login {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contains>.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    border-radius: 30px 0 0 30px;
+    transition: all .7s ease-in-out;
+    background-image: linear-gradient(to left bottom, #6759ff, #8455fc, #9d51f8, #b24bf4, #c546ef);
+}
+
+
+.contains input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    height: 10%;
+    width: 65%;
+    border-bottom: 3px solid #FF31CE;
+    font-size: 20px;
+    padding: 0 4%;
+    background: transparent;
+}
+
+.contains .but,
+.contains>.cover>.change{
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+    height: 9%;
+    width: 20%;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px black;
+    font-size: 20px;
+    text-align: center;
+    opacity: .8;
+}
+.contains>.cover>.change {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:30%;
+    transform: translate(-50%, -50%);
+}
+
+.contains .but:active,
+.contains>.cover>.change:active {
+    box-shadow: 0 0 0;
+}

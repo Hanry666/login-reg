@@ -1,0 +1,24 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+button {
+    border: 0;
+    background-image: linear-gradient(to left bottom, #e9c1f8, #e1a5f7, #d889f5, #cf6af2, #c546ef);
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.4);
+}
+input {
+    outline: none;
+    border:0;
+}
+::-webkit-input-placeholder {
+    color:#D26BB9;
+}
